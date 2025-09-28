@@ -32,7 +32,7 @@ const Hero = () => {
           data-aos-delay="400"
           className="mt-5 text-sm px-2 text-center sm:text-2xl font-medium flex items-center text-white"
         >
-          Hi! I'm Harish - A Passionate
+          Hi! I&apos;m Harish - A Passionate
           <span className="text-cyan-200 font-bold">
             <Typewriter
               options={{
