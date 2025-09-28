@@ -5,7 +5,7 @@ const Project = () => {
   const Projects = [
     {
       id: 1,
-      name: "Modern Finance Dashboard UI",
+      name: "Modern Food Order Website",
       subname: "Apps , UI/UX",
       image: "/images/p1.jpg",
       aos: "fade-up",
@@ -14,30 +14,12 @@ const Project = () => {
     },
     {
       id: 2,
-      name: "Portfolio Website for Creatives",
-      subname: "Branding, Motion",
+      name: "JobPortal Website",
+      subname: "Advertisement, Motion",
       image: "/images/p2.jpg",
       aos: "fade-up",
       anchor: "top-center",
       delay: "100",
-    },
-    {
-      id: 3,
-      name: "Brand Identity for Startups",
-      subname: "Branding , UI/UX",
-      image: "/images/p3.jpg",
-      aos: "fade-up",
-      anchor: "top-center",
-      delay: "200",
-    },
-    {
-      id: 4,
-      name: "Saas Dashboard Development",
-      subname: "Apps , UI/UX",
-      image: "/images/p4.jpg",
-      aos: "fade-up",
-      anchor: "top-center",
-      delay: "300",
     },
   ];
 

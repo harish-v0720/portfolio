@@ -18,9 +18,25 @@ const Resume = () => {
             data-aos="zoom-in"
             data-aos-anchor-placement="top-center"
           >
-            <ResumeCard Icon={FaCodepen} role="Full-Stack Developer" />
-            <ResumeCard Icon={FaReact} role="Front-End Developer" />
-            <ResumeCard Icon={BsDatabase} role="Back-End Developer" />
+            <ResumeCard
+              Icon={FaCodepen}
+              role="Full-Stack Developer"
+              description="Developed responsive web applications using React, Node.js, and modern UI frameworks.
+Built and integrated REST APIs with databases like MongoDB.
+"
+            />
+            <ResumeCard
+              Icon={FaReact}
+              role="Front-End Developer"
+              description="Built responsive and user-friendly web interfaces using React, JavaScript, and TypeScript.
+Implemented modern UI designs with Material-UI, TailwindCSS, and shadcn/ui."
+            />
+            <ResumeCard
+              Icon={BsDatabase}
+              role="Back-End Developer"
+              description="Developed secure and scalable server-side applications using Node.js and Express.js.
+Designed and managed databases with MongoDB for efficient data handling."
+            />
           </div>
         </div>
         {/* EDUCATION PART */}
@@ -38,9 +54,20 @@ const Resume = () => {
               Icon={BiBadge}
               role="Sathyabama Institute of Science and Technology"
               date="June 2020 - Aug 2024"
+              description="B.E - ECE - 8.68"
             />
-            <ResumeCard Icon={FaReact} role="Front-End Developer" />
-            <ResumeCard Icon={BsDatabase} role="Back-End Developer" />
+            <ResumeCard
+              Icon={FaReact}
+              role="Narayana Junior College"
+              date="June 2018 - May 2020"
+              description="Intermediate - MPC - 9.09"
+            />
+            <ResumeCard
+              Icon={BsDatabase}
+              role="Gauthami Techno School"
+              date="May 2018"
+              description="SSC - 9.5"
+            />
           </div>
         </div>
       </div>
